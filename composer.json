@@ -1,0 +1,22 @@
+{
+    "name": "twmobius/PhPub",
+    "type": "library",
+    "description": "A library to create EPUB files.",
+    "homepage": "https://github.com/twmobius/PhPub",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "",
+            "email": ""
+        }
+    ],
+    "require": {
+        "php"       : ">=5.2.4",
+        "twig/twig" : ">=1.*"
+    },
+    "autoload": {
+        "psr-0" : {
+            "PhPub" : "src/"
+        }
+    },
+}
